@@ -1,0 +1,2 @@
+rootProject.name='DepressionCare'
+include ':app'
