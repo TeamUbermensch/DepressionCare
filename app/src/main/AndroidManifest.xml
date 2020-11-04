@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Diagnosis.RecommendActivity"></activity>
+        <activity android:name=".Diagnosis.DiagnoseActivity" />
+        <activity android:name=".Login.FindActivity" />
+        <activity android:name=".Login.SignUpActivity" />
+        <activity android:name=".Login.LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

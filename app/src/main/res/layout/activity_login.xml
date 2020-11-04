@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    tools:context="com.ubermensch.depressioncare.Login.LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="example@example.com"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_email"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:hint="******"
+            />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="3000dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_password"
+            android:layout_gravity="center"
+            android:text="로그인"
+            />
+
+        <Button
+
+            android:id="@+id/bt_signup"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/bt_login"
+            android:text="회원가입"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/bt_find"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="138dp"
+            android:layout_toRightOf="@+id/bt_signup"
+            android:text="  비밀번호 찾기"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+</LinearLayout>
